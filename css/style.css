@@ -1,15 +1,6 @@
 @charset "UTF-8";
 
-/*
 
-Style   : MobApp CSS
-Version : 1.0
-Author  : Surjith S M
-URI     : https://surjithctly.in/
-
-Copyright © All rights Reserved 
-
-*/
 
 
 /*------------------------
@@ -37,17 +28,17 @@ body {
 }
 
 a {
-    color: #e38cb7;
+    color: #1f1f1f;
 }
 
 a:hover,
 a:focus {
-    color: #d6619c;
+    color: #000;
 }
 
 h1 {
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
 }
@@ -55,13 +46,13 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 300;
-    color: #633991;
+    color: #1f1f1f;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #633991;
+    color: #1f1f1f;
     font-size: 33px;
     font-weight: 500;
 }
@@ -69,27 +60,27 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #633991;
+    color: #1f1f1f;
 }
 
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #633991;
+    color: #1f1f1f;
     margin-bottom: 0.7rem;
 }
 
 p {
-    color: #959094;
+    color: #292729;
 }
 
 p.lead {
-    color: #e38cb7;
+    color: #312f30;
     margin-bottom: 2rem;
 }
 
 .text-primary {
-    color: #e38cb7 !important;
+    color: #1f1f1f !important;
 }
 
 .light-font {
@@ -104,8 +95,9 @@ p.lead {
     transition: all 0.3s ease;
 }
 
-.btn-outline-light:hover {
-    color: #d6619c;
+.btn-dark:hover {
+    color: #000;
+    background: #fff;
 }
 
 .btn-primary {
@@ -113,7 +105,8 @@ p.lead {
     background-image: -moz-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
     background-image: -webkit-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
     background-image: -ms-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    background: rgb(0,0,0);
+background: linear-gradient(117deg, rgba(0,0,0,1) 18%, rgba(46,46,46,1) 88%, rgba(70,70,70,1) 98%, rgba(105,105,105,1) 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -137,7 +130,7 @@ p.lead {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
-    color: #633991;
+    color: #1f1f1f;
     margin: 0.5rem;
     padding: 0.7rem 1.6rem;
     line-height: 1.8;
@@ -150,7 +143,7 @@ p.lead {
 }
 
 .light-bg {
-    background-color: #faf6fb;
+    background-color: #fdfdfd;
 }
 
 .section {
@@ -186,10 +179,7 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background-color: rgb(74, 13, 143);
-    background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    background: #fff;
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -211,7 +201,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #cd99d4;
+        border-bottom: 2px solid #000;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -236,20 +226,22 @@ p.lead {
 header {
     padding: 100px 0 0;
     text-align: center;
-    color: #FFF;
+    color: #1f1f1f;
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -moz-linear-gradient(117deg, rgba(225,225,225,1) 3%, rgba(239,239,239,1) 10%, rgba(252,252,252,1) 24%, rgba(255,255,255,1) 74%);
+    background-image: -webkit-linear-gradient(117deg, rgba(225,225,225,1) 3%, rgba(239,239,239,1) 10%, rgba(252,252,252,1) 24%, rgba(255,255,255,1) 74%);
+    background-image: -ms-linear-gradient(117deg, rgba(225,225,225,1) 3%, rgba(239,239,239,1) 10%, rgba(252,252,252,1) 24%, rgba(255,255,255,1) 74%); 
+    background: rgb(239,239,239);
+    background: linear-gradient(117deg, rgba(239,239,239,1) 0%, rgba(249,249,249,1) 1%, rgba(252,252,252,1) 12%, rgba(255,255,255,1) 74%);  
+
 }
 
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #1f1f1f;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -280,7 +272,7 @@ header {
 ----------------------*/
 
 .gradient-fill:before {
-    color: #fc73b4;
+    color: #000;
     background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
     background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
     background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
@@ -346,7 +338,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #000;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -364,10 +356,11 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+    background-image: -moz-linear-gradient(117deg, rgba(0,0,0,1) 1%, rgba(46,46,46,1) 41%, rgba(70,70,70,1) 56%, rgba(105,105,105,1) 94%, rgba(144,144,144,1) 100%);
+    background-image: -webkit-linear-gradient(117deg, rgba(0,0,0,1) 1%, rgba(46,46,46,1) 41%, rgba(70,70,70,1) 56%, rgba(105,105,105,1) 94%, rgba(144,144,144,1) 100%);
+    background-image: -ms-linear-gradient(117deg, rgba(0,0,0,1) 1%, rgba(46,46,46,1) 41%, rgba(70,70,70,1) 56%, rgba(105,105,105,1) 94%, rgba(144,144,144,1) 100%);
+    background-image: rgb(0,0,0);
+    background-image: linear-gradient(117deg, rgba(0,0,0,1) 18%, rgba(46,46,46,1) 88%, rgba(70,70,70,1) 98%, rgba(105,105,105,1) 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -578,7 +571,7 @@ header {
 
 .call-to-action {
     text-align: center;
-    color: #FFF;
+    color: #1f1f1f;
     margin: 3rem 0;
 }
 
@@ -591,13 +584,13 @@ header {
 }
 
 .call-to-action h2 {
-    color: #FFF;
+    color: #1f1f1f;
 }
 
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #1f1f1f;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -625,13 +618,14 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #f4c9e2;
+    color: #1f1f1f;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #fff;
+    background-color: #000;
 }
 
 @media (max-width:991px) {
