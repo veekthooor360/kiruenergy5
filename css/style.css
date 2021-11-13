@@ -256,6 +256,11 @@ header h1 {
     
 }
 
+.bg-gradient3 {
+    background: #FFF;
+
+}
+
 
 .btn-get-started {
     font-family: "Poppins", sans-serif;
