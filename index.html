@@ -20,6 +20,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Themify Icons -->
     <link rel="stylesheet" href="css/themify-icons.css">
     <!-- Owl carousel -->
@@ -43,7 +45,8 @@
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="about-us.html">OUR STORY</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
-                                <li class="nav-item"><a href="https://drive.google.com/file/d/1VB1zbblwcsBpYHMxWcdzwUzNFwApiint/view?usp=sharing" class="btn btn-dark my-3 my-sm-0 ml-lg-3">Get kiru </a></li>
+                                <li class="nav-item"><a href="£" class="btn btn-dark my-3 my-sm-0 ml-lg-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get kiru </a></li>
+                                
                             </ul>
                         </div>
                     </nav>
@@ -57,11 +60,56 @@
         <div class="container mt-5">
             <h1 class="pt-2">Powering the future with Sustainable Energy⚡
             </h1>
-            <p class="tagline">We are enabling better access to green, reliable and affordable electricity for your home and business.</p>
+            <p class="tagline">We are enabling better access to green, 
+                reliable and affordable electricity for your home and business.</p>
         </div>
-        <div class="mt-2"><a href="https://drive.google.com/file/d/1VB1zbblwcsBpYHMxWcdzwUzNFwApiint/view?usp=sharing" class="btn btn-dark btn-get-started mt-5">Get kiru </a></div>
+        
+           <button type="button" class="btn btn-dark btn-get-started mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get kiru </button> 
+            
     </header>
 
+    
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header mx-3">
+                <div>
+                    <h5 class="modal-title" id="exampleModalLabel">Join Our Waitlist</h5>
+                    <p>Be the first to know when we launch
+                    </p>
+                </div>
+              
+             
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+            <div class="modal-body">
+              <form>
+                <div class="mx-3 mb-4">
+                  <label for="first-name" class="col-form-label">FirstName:<span class="style:color=red">*</span></label>
+                  <input type="text" class="form-control" id="first-name">
+                </div>
+                <div class="mx-3 mb-3">
+                    <label for="email" class="col-form-label">Email Address:<span class="style:color=red">*</span></label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark-outline" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Join Us!</button>
+            </div>
+          </div>
+
+      
+    </div>
+  </div>
+
+
+
+  
  <!--  <div class="client-logos my-5">
         <div class="container text-center">
             <img src="images/client-logos.png" alt="client logos" class="img-fluid">
@@ -230,8 +278,8 @@
                     <h2>Buy Electricity</h2>
                     <p class="mb-4">With green, reliable and affordable electricity in your hands, you can unlock
                         opportunities for yourself and loved ones, grow your business and enjoy life better.</p>
-                    <a href="https://drive.google.com/file/d/1VB1zbblwcsBpYHMxWcdzwUzNFwApiint/view?usp=sharing"
-                        class="btn btn-primary">Buy Now</a>
+                    <a href=""
+                        class="btn btn-primary oslink">Buy Now</a>
                 </div>
             </div>
         </div>
@@ -252,8 +300,8 @@
                             <div class=""><span class=""><img src="images/ion_stats-chart.png"></span></div>
                             <h2>Monitor your Usage</h2>
                             <p class="mb-4">Efficiently track your energy usage, save lots of money and green electrons.</p>
-                            <a href="https://drive.google.com/file/d/1VB1zbblwcsBpYHMxWcdzwUzNFwApiint/view?usp=sharing"
-                                class="btn btn-primary">Buy Now</a>
+                            <a href=""
+                                class="btn btn-primary oslink">Buy Now</a>
                         </div>
                     </div>
 
@@ -378,9 +426,9 @@
                 <div class="my-4">
 
                    
-                    <a href="https://drive.google.com/file/d/1VB1zbblwcsBpYHMxWcdzwUzNFwApiint/view?usp=sharing" class="btn btn-light"><img src="images/cib_android-alt.png" alt="icon"> Get kiru</a>
+                    <a href="" class="btn btn-light oslink"><img src="images/cib_android-alt.png" alt="icon"> Get kiru</a>
                 </div>
-                <p class="text-primary"><small><i>*Works on Android Kitkat and above. </i></small></p>
+                <p class="text-primary oslink"><small><i>*Works on Android Kitkat and above. </i></small></p>
             </div>
         </div>
 
